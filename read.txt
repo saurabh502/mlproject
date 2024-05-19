@@ -1,0 +1,13 @@
+1) Create a virtual envoirnmanet : python -m venv venv
+2) Activate virtual envoirnment : .\venv\Scripts\activategit 
+3) Follow below steps:
+    echo "# mlproject" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/saurabh502/mlproject.git
+    git push -u origin main
+4) Setup git global config:
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
